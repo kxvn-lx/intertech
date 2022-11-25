@@ -26,10 +26,10 @@ const Layout = ({ children }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
 
-      <main>{children}</main>
+      <main className='w-full relative flex'>{children}</main>
 
-      <footer className='mt-40 w-full max-w-6xl mx-auto p-4 mb-64'>
-        <div className='grid grid-cols-2 gap-20 gap-y-40'>
+      <footer className='mt-20 w-full max-w-6xl mx-auto p-4 mb-64'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-y-40'>
           <div>
             <h3>☎️ Hubungi kami</h3>
             <a href='tel:+62431863560'>+62431863560</a>
@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             <a href='https://goo.gl/maps/7bxeQfqNaiMas4847' target="_blank" rel="noopener noreferrer">JL Aipda Jl. S. Tubun No.24b, Istiqlal, Kec. Wenang, Kota Manado, Sulawesi Utara 95121, Indonesia</a>
           </div>
 
-          <div className='col-span-2'>
+          <div className='col-span-1 md:col-span-2'>
             <h3>⏰ Jam Buka</h3>
             <ul>
               <li>
@@ -89,7 +89,10 @@ const Layout = ({ children }) => {
           </div>
 
         </div>
+
       </footer>
+
+      <small className='text-center text-intertech-black/10 block mb-20'>hasil karya kl.</small>
     </>
   )
 }
