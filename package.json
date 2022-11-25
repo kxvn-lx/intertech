@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and TailwindCSS",
-  "version": "0.3.0",
-  "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
+  "name": "Intertech Computer",
+  "description": "Toko komputer di Manado, Sulawesi Utara.",
+  "version": "1.0",
+  "author": "",
   "dependencies": {
     "autoprefixer": "^10.4.7",
     "gatsby": "^4.24.4",

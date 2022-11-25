@@ -4,9 +4,6 @@ module.exports = {
     description: ``,
     author: `@kevinlx_`,
   },
-  flags: {
-    THE_FLAG: false
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -31,5 +28,19 @@ module.exports = {
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require("tailwindcss"), require("autoprefixer")]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: false,
+        develop: false,
+        tailwind: true,
+      },
+    }
   ],
 }
