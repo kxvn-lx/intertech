@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Intertech Computer`,
-    description: ``,
+    description: `Toko komputer di Manado, Sulawesi Utara.`,
     author: `@kevinlx_`,
   },
   plugins: [
