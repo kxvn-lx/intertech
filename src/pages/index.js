@@ -9,7 +9,7 @@ export default function Index() {
         <Layout>
             <section className='relative w-full mt-10'>
 
-                <div className='w-4/5 max-w-6xl mx-auto mt-40'>
+                <div className='w-2/3 -mt-10 max-w-5xl mx-auto'>
                     <img className='object-contain' src={require('../images/hero.png').default} alt='Intertech epoxy 3drender' />
                 </div>
 
@@ -28,7 +28,7 @@ export default function Index() {
 }
 
 const MapWrapper = styled.div`
-    height: 50vh;
+    height: 75vh;
     max-height: 40rem;
 
       @media (min-width: 768px) {
